@@ -13,11 +13,9 @@ width: 1440px;
 height: 4102px;
 }
 .headerbar{
- /* padding: 42px 120px 4026px 120px; */
  padding-top: 42px;
  padding-right: 120px;
  padding-left: 120px;
-  
 }
 .astudiotextContainer{
   display: flex;
@@ -101,8 +99,6 @@ line-height: normal;
 letter-spacing: 0.16px;
 }
 .headlineContainer{
-  /* padding-top: 116px;
-  padding-left:68px ; */
   display: flex;
 }
 .TextHeadline{
@@ -162,7 +158,6 @@ margin-top: 58px;
  left: 0;
 }
 .elipse{
-  /* padding-left: 130px; */
   top: -140px;
   position: relative;
   left: 70px;
@@ -425,8 +420,7 @@ margin-left: 40px;
 .sinceRectangle{
   margin-left: 25px;
   margin-top: 100px;
- /* margin-left: 760px;
- margin-top: 100px; */
+
 }
 .sinceText{
 position: absolute;
@@ -450,25 +444,22 @@ line-height: normal;
   font-weight: 400;
   line-height: normal;
   }
-  .SinceSubtextContainer{
+.SinceSubtextContainer{
     width: 532px;
     position: absolute;
    bottom: 140px;
    right: 130px;
   }
-  .sinceSubtext{
-    /* position: absolute;
-    top: 250px;
-    left: 20px; */
-    color: #565656;
+.sinceSubtext{
+color: #565656;
 font-family: Averta Demo PE Cutted Demo;
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: 160%; /* 25.6px */
   }
-  .happyClientText{
-    color: #000;
+.happyClientText{
+ color: #000;
 text-align: center;
 font-family: Averta Demo PE Cutted Demo;
 font-size: 40px;
@@ -479,12 +470,12 @@ position: absolute;
 left: 550px;
 bottom:-1750px ;
   }
-  .happyClientSubText{
-    width: 588px;
-    position: absolute;
-    left: 475px;
-    bottom:-1790px ;
-    color: #757575;
+.happyClientSubText{
+width: 588px;
+position: absolute;
+left: 475px;
+bottom:-1790px ;
+color: #757575;
 text-align: center;
 font-family: Averta Demo PE Cutted Demo;
 font-size: 18px;
@@ -492,8 +483,8 @@ font-style: normal;
 font-weight: 400;
 line-height: 160%; /* 28.8px */
   }
-  .happyClientsContainer{
-    width: 1264px;
+.happyClientsContainer{
+width: 1264px;
 height: 490px;
 flex-shrink: 0;
 margin-left: 107px;
@@ -501,37 +492,36 @@ position: absolute;
 bottom: -2360px;
 display: flex;
   }
-  .ClientLeftpic{
-    width: 389px;
+.ClientLeftpic{
+width: 389px;
 height: 389px;
 flex-shrink: 0;
   }
-  .Happyclienttext{
-    color: #000;
+.Happyclienttext{
+color: #000;
 text-align: center;
 font-family: Averta Demo PE Cutted Demo;
 font-size: 24px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
-
 width: 153px;
 height: 30px;
   }
-  .HappyclientTextBox{
-    padding-left: 185px;
-    padding-top: 180px;
+.HappyclientTextBox{
+ padding-left: 185px;
+ padding-top: 180px;
   }
 .person1{
-  width: 68px;
+width: 68px;
 height: 68px;
 flex-shrink: 0;
 margin-top: 60px;
 margin-left: 360px;
 }
 .HappyclientSubtext{
-  width: 360px;
-  color: #565656;
+ width: 360px;
+color: #565656;
 font-family: Averta Demo PE Cutted Demo;
 font-size: 16px;
 font-style: normal;
@@ -542,22 +532,22 @@ position: absolute;
 left: 570px;
 }
 .person7{
-  position: absolute;
-  top: 125px ;
-  left: 930px;
-  width: 98px;
+position: absolute;
+top: 125px ;
+left: 930px;
+width: 98px;
 height: 98px;
 flex-shrink: 0;
 }
 .person2{
-  position: absolute;
-  top: 130px ;
-  left: 1175px;
+position: absolute;
+top: 130px ;
+left: 1175px;
 }
 .personcenter{
-  position: absolute;
-  top: 160px ;
-  left: 1040px;
+position: absolute;
+top: 160px ;
+left: 1040px;
 }
 .person6{
   position: absolute;
