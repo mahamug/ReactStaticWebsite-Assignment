@@ -1,10 +1,10 @@
-import React from 'react'
+import React,{forwardRef} from 'react'
 import '../Styles/style.css'
 
-function NewsLetter() {
+const NewsLetter = forwardRef ((_, ref) => {
   return (
     <>
-    <div className='NewsletterContainer'>
+    <div  ref={ref} className='NewsletterContainer'>
       <img src="./assets/Rectangle 32.jpg" alt="dots" className='newsletterSideRectangle'/>
       <img src="./assets/Rectangle 30.png" alt="dots" className='newsletterRectangle'/>
       <img src="./assets/Group 73.png" alt="dots" className='NewsLetterDots'/>
@@ -20,6 +20,6 @@ function NewsLetter() {
     </div>
     </>
   )
-}
+});
 
 export default NewsLetter

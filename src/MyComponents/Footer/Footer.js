@@ -1,10 +1,10 @@
-import React from 'react'
+import React, { forwardRef } from 'react'
 import '../Styles/style.css'
 
-function Footer() {
+const  Footer = forwardRef ((_,ref) => {
   return (
     <>
-    <div className='footerContainer'>
+    <div ref={ref} className='footerContainer'>
 
       <div className='astudiotextContainer'>
       <p className='atextstyle'>A+</p>
@@ -45,5 +45,5 @@ function Footer() {
     </>
   )
 }
-
+)
 export default Footer
